@@ -1,0 +1,606 @@
+{
+  "metadata": {
+    "site_testado": "Amazon Brasil",
+    "url": "https://www.amazon.com.br",
+    "data_execucao": "2025-10-07 14:16:48",
+    "total_estrategias": 13,
+    "estrategias_sucessos": 6
+  },
+  "resultados": [
+    {
+      "estrategia": "By.ID",
+      "elemento": "Barra de Pesquisa",
+      "localizador": "twotabsearchtextbox",
+      "encontrado": true,
+      "tag_name": "input",
+      "texto_placeholder": "Pesquisar Amazon.com.br",
+      "timestamp": "2025-10-07 14:15:52"
+    },
+    {
+      "estrategia": "By.NAME",
+      "elemento": "Campo de Palavras-chave",
+      "localizador": "field-keywords",
+      "encontrado": true,
+      "tag_name": "input",
+      "type": "text",
+      "name": "field-keywords",
+      "timestamp": "2025-10-07 14:15:55"
+    },
+    {
+      "estrategia": "By.CLASS_NAME",
+      "elemento": "Elemento de Navegação",
+      "localizador": "nav-line-1",
+      "encontrado": true,
+      "quantidade_encontrada": 4,
+      "tag_name": "span",
+      "texto": "A entrega será feita em Vilhena 76980000",
+      "classes": "nav-line-1 nav-progressive-content",
+      "timestamp": "2025-10-07 14:15:57"
+    },
+    {
+      "estrategia": "By.TAG_NAME",
+      "elemento": "Imagens",
+      "localizador": "img",
+      "encontrado": true,
+      "quantidade_total": 219,
+      "timestamp": "2025-10-07 14:15:59",
+      "amostra_imagens": [
+        {
+          "posicao": 1,
+          "src": "https://fls-na.amazon.com.br/1/batch/1/OP/A2Q3Y263D00KWC:139-3495009-9623716:96905FRJTNC68T7GSKMF$uedata=s:%2Frd%2Fuedata%3Fstaticb%26id%3D96905FRJTNC68T7GSKMF:0",
+          "alt": "",
+          "width": "1",
+          "height": "1"
+        },
+        {
+          "posicao": 2,
+          "src": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB546817485_.png",
+          "alt": "",
+          "width": "350",
+          "height": "450"
+        },
+        {
+          "posicao": 3,
+          "src": "https://m.media-amazon.com/images/G/32/br-events/2025/MOP/Homepage/DO/23097_MOP25_SWM_aproveiteMOP_400x39._CB799319092_.jpg",
+          "alt": "X-Site",
+          "width": "400",
+          "height": "39"
+        }
+      ]
+    },
+    {
+      "estrategia": "By.CSS_SELECTOR",
+      "elemento": "Botão de Busca",
+      "localizador": "input[type='submit'][value='Ir']",
+      "encontrado": true,
+      "tag_name": "input",
+      "type": "submit",
+      "value": "Ir",
+      "classes": "nav-input nav-progressive-attribute",
+      "timestamp": "2025-10-07 14:16:02"
+    },
+    {
+      "estrategia": "By.XPATH",
+      "elemento": "Links de Navegação",
+      "localizador": "//div[@id='nav-main']//a[contains(@class, 'nav-a')]",
+      "encontrado": true,
+      "quantidade_encontrada": 24,
+      "timestamp": "2025-10-07 14:16:04",
+      "amostra_links": [
+        {
+          "posicao": 1,
+          "texto": "Mega Oferta Prime",
+          "href": "https://www.amazon.com.br/megaofertaprime?ref_=nav_cs_td_bf_dt_pbdd",
+          "classes": "nav-a  "
+        },
+        {
+          "posicao": 2,
+          "texto": "Venda na Amazon",
+          "href": "https://www.amazon.com.br/gp/browse.html?node=17877554011&ld=ASBRSOA_retail_sell_header_t1&ref_=nav_cs_sell",
+          "classes": "nav-a  "
+        },
+        {
+          "posicao": 3,
+          "texto": "Mais Vendidos",
+          "href": "https://www.amazon.com.br/gp/bestsellers/?ref_=nav_cs_bestsellers",
+          "classes": "nav-a  "
+        },
+        {
+          "posicao": 4,
+          "texto": "Prime",
+          "href": "https://www.amazon.com.br/prime?ref_=nav_cs_primelink_nonmember",
+          "classes": "nav-a  "
+        },
+        {
+          "posicao": 5,
+          "texto": "Livros",
+          "href": "https://www.amazon.com.br/Livros/b/?ie=UTF8&node=6740748011&ref_=nav_cs_books",
+          "classes": "nav-a  "
+        }
+      ]
+    },
+    {
+      "estrategia": "By.DATA_ATTRIBUTES",
+      "elemento": "Elementos com Data Attributes",
+      "encontrados": 4,
+      "total_testados": 5,
+      "detalhes": [
+        {
+          "seletor": "[data-nav-role]",
+          "encontrado": true,
+          "quantidade": 3,
+          "primeiro_elemento": {
+            "tag_name": "a",
+            "atributos_data": {},
+            "texto": "Olá, faça seu login\nContas e Listas"
+          }
+        },
+        {
+          "seletor": "[data-cy]",
+          "encontrado": false,
+          "quantidade": 0,
+          "erro": "Nenhum elemento encontrado"
+        },
+        {
+          "seletor": "[aria-label]",
+          "encontrado": true,
+          "quantidade": 96,
+          "primeiro_elemento": {
+            "tag_name": "nav",
+            "atributos_data": {},
+            "texto": "Sem texto"
+          }
+        },
+        {
+          "seletor": "[role]",
+          "encontrado": true,
+          "quantidade": 146,
+          "primeiro_elemento": {
+            "tag_name": "nav",
+            "atributos_data": {},
+            "texto": "Sem texto"
+          }
+        },
+        {
+          "seletor": "[tabindex]",
+          "encontrado": true,
+          "quantidade": 51,
+          "primeiro_elemento": {
+            "tag_name": "nav",
+            "atributos_data": {},
+            "texto": "Sem texto"
+          }
+        }
+      ],
+      "timestamp": "2025-10-07 14:16:06"
+    },
+    {
+      "estrategia": "By.ATTRIBUTE_CONTAINS",
+      "elemento": "Elementos por Atributos que Contêm Texto",
+      "encontrados": 5,
+      "total_testados": 5,
+      "detalhes": [
+        {
+          "atributo": "href",
+          "texto_procurado": "amazon",
+          "seletor": "[href*='amazon']",
+          "encontrado": true,
+          "quantidade": 54,
+          "primeiro_elemento": {
+            "tag_name": "link",
+            "valor_atributo": "https://images-na.ssl-images-amazon.com/",
+            "texto": "Sem texto"
+          }
+        },
+        {
+          "atributo": "class",
+          "texto_procurado": "nav",
+          "seletor": "[class*='nav']",
+          "encontrado": true,
+          "quantidade": 431,
+          "primeiro_elemento": {
+            "tag_name": "nav",
+            "valor_atributo": "nav-assistant",
+            "texto": "Sem texto"
+          }
+        },
+        {
+          "atributo": "id",
+          "texto_procurado": "search",
+          "seletor": "[id*='search']",
+          "encontrado": true,
+          "quantidade": 14,
+          "primeiro_elemento": {
+            "tag_name": "a",
+            "valor_atributo": "nav-assist-search",
+            "texto": "Sem texto"
+          }
+        },
+        {
+          "atributo": "placeholder",
+          "texto_procurado": "pesquis",
+          "seletor": "[placeholder*='pesquis' i]",
+          "encontrado": true,
+          "quantidade": 1,
+          "primeiro_elemento": {
+            "tag_name": "input",
+            "valor_atributo": "Pesquisar Amazon.com.br",
+            "texto": "Sem texto"
+          }
+        },
+        {
+          "atributo": "alt",
+          "texto_procurado": "amazon",
+          "seletor": "[alt*='amazon' i]",
+          "encontrado": true,
+          "quantidade": 3,
+          "primeiro_elemento": {
+            "tag_name": "img",
+            "valor_atributo": "Mega Ofertas Amazon Prime. Descontos em Echo com Alexa. Frete grátis",
+            "texto": "Sem texto"
+          }
+        }
+      ],
+      "timestamp": "2025-10-07 14:16:09"
+    },
+    {
+      "estrategia": "By.PSEUDO_SELECTORS",
+      "elemento": "Elementos por Pseudo-Seletores",
+      "encontrados": 5,
+      "total_testados": 5,
+      "detalhes": [
+        {
+          "descricao": "Primeiro link da página",
+          "seletor": "a:first-of-type",
+          "encontrado": true,
+          "quantidade": 336,
+          "primeiro_elemento": {
+            "tag_name": "a",
+            "texto": "Sem texto",
+            "classes": ""
+          }
+        },
+        {
+          "descricao": "Último item de lista",
+          "seletor": "li:last-child",
+          "encontrado": true,
+          "quantidade": 22,
+          "primeiro_elemento": {
+            "tag_name": "li",
+            "texto": "Sem texto",
+            "classes": "nav-assistant-list-item"
+          }
+        },
+        {
+          "descricao": "Elementos pares",
+          "seletor": "div:nth-child(even)",
+          "encontrado": true,
+          "quantidade": 779,
+          "primeiro_elemento": {
+            "tag_name": "div",
+            "texto": "Sem texto",
+            "classes": "shortcut-keys-container"
+          }
+        },
+        {
+          "descricao": "Links com href",
+          "seletor": "a[href]:not([href=''])",
+          "encontrado": true,
+          "quantidade": 328,
+          "primeiro_elemento": {
+            "tag_name": "a",
+            "texto": "Sem texto",
+            "classes": "nav-assistant-link nav-assistant-menu-item nav-assistant-link-item a-color-base a-color-link "
+          }
+        },
+        {
+          "descricao": "Inputs habilitados",
+          "seletor": "input:not([disabled])",
+          "encontrado": true,
+          "quantidade": 18,
+          "primeiro_elemento": {
+            "tag_name": "input",
+            "texto": "Sem texto",
+            "classes": "nav-progressive-attribute"
+          }
+        }
+      ],
+      "timestamp": "2025-10-07 14:16:11"
+    },
+    {
+      "estrategia": "By.MULTIPLE_ATTRIBUTES",
+      "elemento": "Elementos por Múltiplos Atributos",
+      "encontrados": 5,
+      "total_testados": 5,
+      "detalhes": [
+        {
+          "descricao": "Botão de busca",
+          "seletor": "input[type='submit'][class*='nav']",
+          "encontrado": true,
+          "quantidade": 1,
+          "primeiro_elemento": {
+            "tag_name": "input",
+            "atributos": {
+              "id": "nav-search-submit-button",
+              "class": "nav-input nav-progressive-attribute",
+              "name": ""
+            }
+          }
+        },
+        {
+          "descricao": "Links de navegação",
+          "seletor": "a[class*='nav'][href]",
+          "encontrado": true,
+          "quantidade": 77,
+          "primeiro_elemento": {
+            "tag_name": "a",
+            "atributos": {
+              "id": "nav-assist-skip-to-main-content",
+              "class": "nav-assistant-link nav-assistant-menu-item nav-assistant-link-item a-color-base a-color-link ",
+              "name": ""
+            }
+          }
+        },
+        {
+          "descricao": "Imagens com alt",
+          "seletor": "img[alt][src]",
+          "encontrado": true,
+          "quantidade": 212,
+          "primeiro_elemento": {
+            "tag_name": "img",
+            "atributos": {
+              "id": "",
+              "class": "",
+              "name": ""
+            }
+          }
+        },
+        {
+          "descricao": "Inputs de texto",
+          "seletor": "input[type='text'][name]",
+          "encontrado": true,
+          "quantidade": 1,
+          "primeiro_elemento": {
+            "tag_name": "input",
+            "atributos": {
+              "id": "twotabsearchtextbox",
+              "class": "nav-input nav-progressive-attribute",
+              "name": "field-keywords"
+            }
+          }
+        },
+        {
+          "descricao": "Elementos visíveis",
+          "seletor": "div[style*='display'][class]",
+          "encontrado": true,
+          "quantidade": 7,
+          "primeiro_elemento": {
+            "tag_name": "div",
+            "atributos": {
+              "id": "nav-flyout-searchAjax",
+              "class": "nav-issFlyout nav-flyout",
+              "name": null
+            }
+          }
+        }
+      ],
+      "timestamp": "2025-10-07 14:16:13"
+    },
+    {
+      "estrategia": "By.XPATH_ADVANCED",
+      "elemento": "Elementos por XPath Avançado",
+      "encontrados": 5,
+      "total_testados": 5,
+      "detalhes": [
+        {
+          "descricao": "Elementos com texto específico",
+          "xpath": "//*[contains(text(), 'Amazon') or contains(text(), 'Prime')]",
+          "encontrado": true,
+          "quantidade": 169,
+          "primeiro_elemento": {
+            "tag_name": "script",
+            "texto": "Sem texto",
+            "posicao": "x:0, y:0"
+          }
+        },
+        {
+          "descricao": "Links por posição",
+          "xpath": "//nav//a[position()<=3]",
+          "encontrado": true,
+          "quantidade": 5,
+          "primeiro_elemento": {
+            "tag_name": "a",
+            "texto": "Sem texto",
+            "posicao": "x:-9968, y:56"
+          }
+        },
+        {
+          "descricao": "Elementos com classe específica",
+          "xpath": "//div[contains(@class, 'nav') and @id]",
+          "encontrado": true,
+          "quantidade": 36,
+          "primeiro_elemento": {
+            "tag_name": "div",
+            "texto": ".com.br\nA entrega será feita em Vilhena ",
+            "posicao": "x:0, y:0"
+          }
+        },
+        {
+          "descricao": "Elementos irmãos",
+          "xpath": "//input/following-sibling::*",
+          "encontrado": true,
+          "quantidade": 18,
+          "primeiro_elemento": {
+            "tag_name": "input",
+            "texto": "Sem texto",
+            "posicao": "x:0, y:0"
+          }
+        },
+        {
+          "descricao": "Elementos pais de imagens",
+          "xpath": "//img/parent::*",
+          "encontrado": true,
+          "quantidade": 215,
+          "primeiro_elemento": {
+            "tag_name": "div",
+            "texto": ".com.br\nA entrega será feita em Vilhena ",
+            "posicao": "x:0, y:0"
+          }
+        }
+      ],
+      "timestamp": "2025-10-07 14:16:19"
+    },
+    {
+      "estrategia": "By.TEXT_CONTENT",
+      "elemento": "Elementos por Conteúdo de Texto",
+      "encontrados": 5,
+      "total_testados": 5,
+      "detalhes": [
+        {
+          "descricao": "Elementos com Login/Conta",
+          "xpath": "//*[contains(text(), 'Login') or contains(text(), 'Conta') or contains(text(), 'Entrar') or contains(text(), 'Olá')]",
+          "encontrado": true,
+          "quantidade": 2,
+          "primeiro_elemento": {
+            "tag_name": "span",
+            "texto_completo": "Olá, faça seu login",
+            "texto_resumido": "Olá, faça seu login"
+          }
+        },
+        {
+          "descricao": "Texto de Preço",
+          "xpath": "//*[contains(text(), 'R$') or contains(text(), 'reais') or contains(text(), '%')]",
+          "encontrado": true,
+          "quantidade": 94,
+          "primeiro_elemento": {
+            "tag_name": "h2",
+            "texto_completo": "Até 40% off em Eletrônicos",
+            "texto_resumido": "Até 40% off em Eletrônicos"
+          }
+        },
+        {
+          "descricao": "Elementos de navegação",
+          "xpath": "//*[contains(text(), 'Livros') or contains(text(), 'Prime') or contains(text(), 'Casa')]",
+          "encontrado": true,
+          "quantidade": 49,
+          "primeiro_elemento": {
+            "tag_name": "option",
+            "texto_completo": "Casa",
+            "texto_resumido": "Casa"
+          }
+        },
+        {
+          "descricao": "Títulos de Seção",
+          "xpath": "//*[self::h1 or self::h2 or self::h3 or self::span][normalize-space(text())]",
+          "encontrado": true,
+          "quantidade": 305,
+          "primeiro_elemento": {
+            "tag_name": "span",
+            "texto_completo": ".com.br",
+            "texto_resumido": ".com.br"
+          }
+        },
+        {
+          "descricao": "Texto de Ofertas",
+          "xpath": "//*[contains(text(), 'oferta') or contains(text(), 'desconto') or contains(text(), 'off')]",
+          "encontrado": true,
+          "quantidade": 61,
+          "primeiro_elemento": {
+            "tag_name": "h2",
+            "texto_completo": "Até 40% off em Eletrônicos",
+            "texto_resumido": "Até 40% off em Eletrônicos"
+          }
+        }
+      ],
+      "timestamp": "2025-10-07 14:16:43"
+    },
+    {
+      "estrategia": "By.POSITION_CONTEXT",
+      "elemento": "Elementos por Posição e Contexto",
+      "encontrados": 4,
+      "total_testados": 5,
+      "detalhes": [
+        {
+          "descricao": "Primeiro item do header",
+          "seletor": "header *:first-child, [role='banner'] *:first-child",
+          "encontrado": true,
+          "quantidade": 309,
+          "primeiro_elemento": {
+            "tag_name": "div",
+            "posicao_na_tela": {
+              "x": 0,
+              "y": 0
+            },
+            "tamanho": {
+              "height": 99,
+              "width": 1019
+            },
+            "visivel": true
+          }
+        },
+        {
+          "descricao": "Último item do footer",
+          "seletor": "footer *:last-child, [role='contentinfo'] *:last-child",
+          "encontrado": false,
+          "quantidade": 0,
+          "erro": "Nenhum elemento encontrado"
+        },
+        {
+          "descricao": "Elementos centrais",
+          "seletor": "div:nth-child(even)",
+          "encontrado": true,
+          "quantidade": 779,
+          "primeiro_elemento": {
+            "tag_name": "div",
+            "posicao_na_tela": {
+              "x": -9771,
+              "y": 141
+            },
+            "tamanho": {
+              "height": 25,
+              "width": 75
+            },
+            "visivel": false
+          }
+        },
+        {
+          "descricao": "Primeiros links de cada nav",
+          "seletor": "nav a:first-of-type",
+          "encontrado": true,
+          "quantidade": 5,
+          "primeiro_elemento": {
+            "tag_name": "a",
+            "posicao_na_tela": {
+              "x": -9968,
+              "y": 56
+            },
+            "tamanho": {
+              "height": 20,
+              "width": 121
+            },
+            "visivel": false
+          }
+        },
+        {
+          "descricao": "Elementos após inputs",
+          "seletor": "input + *, input ~ *",
+          "encontrado": true,
+          "quantidade": 18,
+          "primeiro_elemento": {
+            "tag_name": "input",
+            "posicao_na_tela": {
+              "x": 0,
+              "y": 0
+            },
+            "tamanho": {
+              "height": 0,
+              "width": 0
+            },
+            "visivel": false
+          }
+        }
+      ],
+      "timestamp": "2025-10-07 14:16:46"
+    }
+  ]
+}
